@@ -13,14 +13,20 @@
 ---
 
 ### Документация и отчёты
-- **Документация:** [docs/html/index.html](docs/html/index.html)
-- **Отчёт о тестировании:** [docs/testingreport.md](docs/testingreport.md)
+- **Документация:** [documents/html/index.html](documents/html/index.html)
+- **Отчёт о тестировании:** [documents/test_report.md](documents/test_report.md)
 
 ---
 
 ### Сборка и запуск
 make
+./skip_list
 
+---
+### Сборка и запуск тестов
+make test
+./test_skip_list
+---
 #### Зависимости для тестов
 Установите необходимые зависимости с помощью следующей команды:
 ```bash
