@@ -30,8 +30,10 @@ make
 ````
 make test
 ```
+make test
 ```
- - ./test_skip_list
+```
+./test_skip_list
 ```
 ---
 #### Зависимости для тестов
