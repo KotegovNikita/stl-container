@@ -1,1 +1,44 @@
-12345
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ make libgtest-dev libgmock-dev
+
+    - name: Build Project
+      run: make
+
+  run_tests:
+    runs-on: ubuntu-latest
+    needs: build  
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ make libgtest-dev libgmock-dev
+
+    - name: Build Google Tests
+      run: make test
+
+    - name: Run Tests
+      run: ./test_skip_list
