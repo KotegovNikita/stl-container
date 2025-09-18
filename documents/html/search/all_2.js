@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['empty_0',['empty',['../classskip__list.html#a1eeaa8daff7768103f76bf87fc814436',1,'skip_list']]],
-  ['end_1',['end',['../classskip__list.html#a4b9f6cd3cb246b9d89cd72129e13b9b3',1,'skip_list']]],
-  ['erase_2',['erase',['../classskip__list.html#acc94f9947dbad15e9e35f39693b8b628',1,'skip_list']]]
+  ['clean_0',['Clean',['../md_README.html#autotoc_md10',1,'']]],
+  ['clear_1',['clear',['../classskip__list.html#ae885fde5930b4b71f2c6e24a94a26c3a',1,'skip_list']]],
+  ['contains_2',['contains',['../classskip__list.html#a480ce6f32845f01c83a61c845fb3c758',1,'skip_list']]]
 ];

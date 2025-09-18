@@ -25,9 +25,12 @@
 var NAVTREE =
 [
   [ "skip_list", "index.html", [
+    [ "test_report", "md_documents_2test__report.html", null ],
+    [ "SkipList", "md_README.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],

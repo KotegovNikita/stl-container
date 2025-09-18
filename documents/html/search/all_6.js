@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['size_0',['size',['../classskip__list.html#a227e2751a8ecbd516983454f02f72bfc',1,'skip_list']]],
-  ['skip_5flist_1',['skip_list',['../classskip__list.html',1,'skip_list&lt; KeyType &gt;'],['../classskip__list.html#afbd15d7c3340b06944f7b2ba137c4995',1,'skip_list::skip_list()']]]
+  ['insert_0',['insert',['../classskip__list.html#a990a5d3ad2580b95c97b8450b21cdebd',1,'skip_list']]],
+  ['iterator_1',['iterator',['../classskip__list_1_1iterator.html',1,'skip_list&lt; KeyType &gt;::iterator'],['../classskip__list_1_1iterator.html#a813e8fa0429dd6a3b9cfe090475cc100',1,'skip_list::iterator::iterator()']]]
 ];
